@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
-  /* config options here */
+// あなたのGitHubリポジトリ名に書き換えてください
+const repositoryName = 'aqua-frontech-site';
+
+const nextConfig = {
+  output: 'export',
+  basePath: `/${repositoryName}`,
+  assetPrefix: `/${repositoryName}/`,
+  images: {
+    unoptimized: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

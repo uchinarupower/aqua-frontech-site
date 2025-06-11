@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image'; // Next.jsの画像最適化コンポーネント
+// import Image from 'next/image'; // Next.jsの画像最適化コンポーネント
 
 export default function HomePage() {
   return (

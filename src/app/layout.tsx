@@ -7,8 +7,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Aqua-Frontech',
-  description: '未来の水圏技術を創造する Aqua-Frontech',
+  title: 'Aqua-frontech',
+  description: '未来の水圏技術を創造する Aqua-frontech',
 };
 
 export default function RootLayout({
